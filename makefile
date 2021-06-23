@@ -17,3 +17,10 @@ all:
 	echo "---------------------------------------------------------------------" >> logs/log2.txt
 	echo "MEMORY" >> logs/log2.txt
 	cat build/memory.txt >> logs/log2.txt
+
+	rm -f vivado/*.log
+	rm -f vivado/*.jou
+	vivado -mode batch -source vivado/vivado.tcl \
+	-tempDir vivado \
+	-log vivado/vivado.log \
+	-jou vivado/vivado.jou

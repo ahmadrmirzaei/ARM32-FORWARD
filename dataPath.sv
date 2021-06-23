@@ -9,7 +9,7 @@
 
 module dataPath (
     input clk, rst, FWRD_EN,
-    output real inst_count,
+    output integer inst_count,
     output reg stop
 );
 

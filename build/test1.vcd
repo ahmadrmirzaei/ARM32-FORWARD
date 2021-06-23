@@ -1,5 +1,5 @@
 $date
-	Wed Jun 23 20:04:05 2021
+	Wed Jun 23 20:13:20 2021
 $end
 $version
 	Icarus Verilog
@@ -52,8 +52,8 @@ $var wire 1 H MEM_R_EN_WB $end
 $var wire 1 I MEM_R_EN_MEM $end
 $var wire 1 J MEM_R_EN_EXE $end
 $var wire 1 K B_EXE $end
-$var reg 1 L stop $end
-$var real 1 M inst_count $end
+$var reg 32 L inst_count [31:0] $end
+$var reg 1 M stop $end
 $scope module EXE $end
 $var wire 1 N MEM_EN $end
 $var wire 1 # clk $end
@@ -540,8 +540,8 @@ bx Q
 bx P
 bx O
 xN
-r0 M
-0L
+0M
+b0 L
 xK
 xJ
 xI
@@ -28743,8 +28743,8 @@ b11000100 "#
 b11000000 x"
 b11000000 |"
 b11000000 }"
-r47 M
-1L
+b101111 L
+1M
 1#
 #5600
 0#
