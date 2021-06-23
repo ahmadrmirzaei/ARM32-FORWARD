@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Jun 23 20:13:22 2021
-# Process ID: 12924
+# Start of session at: Wed Jun 23 20:41:27 2021
+# Process ID: 10964
 # Current directory: D:/Ripositories/ARM32_FORWARD
 # Command line: vivado.exe -mode batch -source vivado/vivado.tcl -tempDir vivado -log vivado/vivado.log -jou vivado/vivado.jou
 # Log file: D:/Ripositories/ARM32_FORWARD/vivado/vivado.log
@@ -18,9 +18,9 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20124
+INFO: [Synth 8-7075] Helper process launched with PID 16456
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1156.527 ; gain = 0.000
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.934 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'dataPath' [D:/Ripositories/ARM32_FORWARD/dataPath.sv:10]
 INFO: [Synth 8-6157] synthesizing module 'instFetch' [D:/Ripositories/ARM32_FORWARD/IF/instFetch.sv:6]
@@ -39,7 +39,7 @@ INFO: [Synth 8-6157] synthesizing module 'controlUnit' [D:/Ripositories/ARM32_FO
 INFO: [Synth 8-6155] done synthesizing module 'controlUnit' (6#1) [D:/Ripositories/ARM32_FORWARD/ID/controlUnit.sv:3]
 INFO: [Synth 8-6157] synthesizing module 'registerFile' [D:/Ripositories/ARM32_FORWARD/ID/registerFile.sv:3]
 WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_FORWARD/ID/registerFile.sv:19]
-WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_FORWARD/ID/registerFile.sv:31]
+WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_FORWARD/ID/registerFile.sv:32]
 INFO: [Synth 8-6155] done synthesizing module 'registerFile' (7#1) [D:/Ripositories/ARM32_FORWARD/ID/registerFile.sv:3]
 INFO: [Synth 8-6157] synthesizing module 'instDecodeReg' [D:/Ripositories/ARM32_FORWARD/ID/instDecodeReg.sv:3]
 INFO: [Synth 8-6155] done synthesizing module 'instDecodeReg' (8#1) [D:/Ripositories/ARM32_FORWARD/ID/instDecodeReg.sv:3]
@@ -70,7 +70,7 @@ INFO: [Synth 8-6155] done synthesizing module 'exe' (14#1) [D:/Ripositories/ARM3
 INFO: [Synth 8-6157] synthesizing module 'mem' [D:/Ripositories/ARM32_FORWARD/MEM/mem.sv:5]
 INFO: [Synth 8-6157] synthesizing module 'dataMemory' [D:/Ripositories/ARM32_FORWARD/MEM/dataMemory.sv:3]
 WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_FORWARD/MEM/dataMemory.sv:20]
-WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_FORWARD/MEM/dataMemory.sv:31]
+WARNING: [Synth 8-639] system function call 'fopen' not supported [D:/Ripositories/ARM32_FORWARD/MEM/dataMemory.sv:32]
 INFO: [Synth 8-6155] done synthesizing module 'dataMemory' (15#1) [D:/Ripositories/ARM32_FORWARD/MEM/dataMemory.sv:3]
 INFO: [Synth 8-6157] synthesizing module 'memReg' [D:/Ripositories/ARM32_FORWARD/MEM/memReg.sv:3]
 INFO: [Synth 8-6155] done synthesizing module 'memReg' (16#1) [D:/Ripositories/ARM32_FORWARD/MEM/memReg.sv:3]
@@ -84,21 +84,21 @@ INFO: [Synth 8-6155] done synthesizing module 'forward' (20#1) [D:/Ripositories/
 INFO: [Synth 8-251] x: 32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [D:/Ripositories/ARM32_FORWARD/dataPath.sv:130]
 INFO: [Synth 8-6155] done synthesizing module 'dataPath' (21#1) [D:/Ripositories/ARM32_FORWARD/dataPath.sv:10]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1156.527 ; gain = 0.000
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1153.934 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1156.527 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1153.934 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7vx485tffg1157-1
 ---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1153.934 ; gain = 0.000
+---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1156.527 ; gain = 0.000
 ---------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1156.527 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1153.934 ; gain = 0.000
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -150,7 +150,7 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:50 . Memory (MB): peak = 1600.805 ; gain = 444.277
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1595.242 ; gain = 441.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -172,7 +172,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:50 . Memory (MB): peak = 1600.805 ; gain = 444.277
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1595.242 ; gain = 441.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -192,7 +192,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 1600.805 ; gain = 444.277
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1595.242 ; gain = 441.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -209,120 +209,10 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Instances
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Rebuilding User Hierarchy
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Ports
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Nets
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Writing Synthesis Report
----------------------------------------------------------------------------------
-
-Report BlackBoxes: 
-+-+--------------+----------+
-| |BlackBox name |Instances |
-+-+--------------+----------+
-+-+--------------+----------+
-
-Report Cell Usage: 
-+------+---------+------+
-|      |Cell     |Count |
-+------+---------+------+
-|1     |BUFG     |     1|
-|2     |CARRY4   |    66|
-|3     |LUT1     |    25|
-|4     |LUT2     |   284|
-|5     |LUT3     |   114|
-|6     |LUT4     |    99|
-|7     |LUT5     |   218|
-|8     |LUT6     |   701|
-|9     |MUXF7    |    35|
-|10    |MUXF8    |     1|
-|11    |RAM64X1S |    32|
-|12    |FDCE     |   821|
-|13    |FDPE     |    28|
-|14    |FDRE     |    30|
-|15    |IBUF     |     3|
-|16    |OBUF     |    33|
-+------+---------+------+
-
-Report Instance Areas: 
-+------+---------------+---------------+------+
-|      |Instance       |Module         |Cells |
-+------+---------------+---------------+------+
-|1     |top            |               |  2491|
-|2     |  EXE          |exe            |   581|
-|3     |    alu        |ALU            |    53|
-|4     |    pr_exe_mem |exeReg         |   142|
-|5     |    sr         |statusRegister |     8|
-|6     |    v2g        |val2generator  |   336|
-|7     |  ID           |instDecode     |  1373|
-|8     |    pr_id_exe  |instDecodeReg  |   603|
-|9     |    rf         |registerFile   |   770|
-|10    |  IF           |instFetch      |   317|
-|11    |    PC         |PC             |    92|
-|12    |    pr_if_id   |instFetchReg   |   217|
-|13    |  MEM          |mem            |   150|
-|14    |    dm         |dataMemory     |    32|
-|15    |    pr_mem_wb  |memReg         |   118|
-+------+---------------+---------------+------+
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
-Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1600.805 ; gain = 444.277
-INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1600.805 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 134 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1600.805 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 32 instances were transformed.
-  RAM64X1S => RAM64X1S (inverted pins: WCLK) (RAMS64E): 32 instances
-
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+1
 INFO: [Common 17-83] Releasing license: Synthesis
-56 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:06 . Memory (MB): peak = 1600.805 ; gain = 444.277
-# report_utilization -file ./vivado/util.rpt
-# report_timing -file ./vivado/timing.rpt
-INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
-INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
-INFO: [Timing 38-35] Done setting XDC timing constraints.
-INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
-report_timing: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1987.344 ; gain = 386.539
-# write_verilog -force ./vivado/ver.v
-# start_gui
-exit
-INFO: [Common 17-206] Exiting Vivado at Wed Jun 23 20:24:51 2021...
+51 Infos, 4 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+INFO: [Common 17-344] 'source' was cancelled
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 23 20:42:32 2021...

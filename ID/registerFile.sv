@@ -17,6 +17,7 @@ module registerFile(
 
   initial begin
     fd = $fopen("./build/registers.txt", "w");
+    $fdisplay(fd, "REGISTERS--------------------------------------------------------------------");
     for (i = 0; i<15; i=i+1) begin
       regf[i] = i;
       $fdisplay(fd, "%d: %d", i, regf[i]);
@@ -29,6 +30,7 @@ module registerFile(
     else if (WB_EN_ID) begin 
       regf[dest_ID] = val_ID;
       fd = $fopen("./build/registers.txt", "w");
+      $fdisplay(fd, "REGISTERS--------------------------------------------------------------------");
       for (i = 0; i<15; i=i+1)
         $fdisplay(fd, "%d: %d", i, regf[i]);
       $fclose(fd);
@@ -36,6 +38,3 @@ module registerFile(
   end
   
 endmodule
-
-
-  

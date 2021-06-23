@@ -18,6 +18,7 @@ module dataMemory (
 
     initial begin
         fd = $fopen("./build/memory.txt", "w");
+        $fdisplay(fd, "MEMORY--------------------------------------------------------------------");
         for (i = 0; i<64; i=i+1) begin
             memory[i] = 0;
             $fdisplay(fd, "%d: %d", 4*i+1024, memory[i]);
@@ -29,6 +30,7 @@ module dataMemory (
         if (MEM_W_EN) begin
             memory[(alu_res-1023)/4] = rm_val;
             fd = $fopen("./build/memory.txt", "w");
+            $fdisplay(fd, "MEMORY--------------------------------------------------------------------");
             for (i = 0; i<64; i=i+1)
                 $fdisplay(fd, "%d: %d", 4*i+1024, memory[i]);
             $fclose(fd);
